@@ -153,6 +153,16 @@ ul {
   padding-right: 0;
   line-height: 32px; }
 
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Safari 3-8 */
+  transform: scale(1.25); 
+}
+
 .bg-transparent {
   background-color: transparent !important; }
 
@@ -735,7 +745,8 @@ input:focus {
 .single-portfolio-slide {
   position: relative;
   z-index: 1;
-  margin-bottom: 50px; }
+  margin-bottom: 75px;
+  margin-top: 75px;}
   .single-portfolio-slide img {
     position: relative;
     z-index: 1;

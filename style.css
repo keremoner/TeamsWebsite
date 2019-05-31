@@ -1155,8 +1155,11 @@ input:focus {
   width: 100%;
   padding-right: 100px; }
   .about-us-thumbnail img {
-    width: 100%; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    width: 70%; }
+    .istanbul img{
+      width: 130%;
+    }
+  @media only screen and (min-width: 900px) and (max-width: 991px) {
     .about-us-thumbnail {
       padding-right: 0; } }
   @media only screen and (max-width: 767px) {
